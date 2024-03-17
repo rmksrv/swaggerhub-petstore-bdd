@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "swaggerhub-petstore-bdd"
+version = "0.1.0"
+description = ""
+authors = ["Roman Kosarev <rmksrv@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+behave = "^1.2.6"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
